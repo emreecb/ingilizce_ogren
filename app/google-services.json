@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "96937151813",
+    "firebase_url": "https://ingilizceogren-b8423.firebaseio.com",
+    "project_id": "ingilizceogren-b8423",
+    "storage_bucket": "ingilizceogren-b8423.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96937151813:android:0642bf63c22fcc8e",
+        "android_client_info": {
+          "package_name": "com.example.emirhan.iingilizce_ogren"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96937151813-nimlb08p1tmu05kfvu0qgcdi2eh4qh1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emirhan.iingilizce_ogren",
+            "certificate_hash": "91fec4e875c2b4b7aae3b4881e732a0dfb0b3748"
+          }
+        },
+        {
+          "client_id": "96937151813-1cuqcmaa0tqm2vognn9fnops19otuhhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqXfdkY96OZG-bmr5hi4H4KoY2WWATjnE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96937151813-1cuqcmaa0tqm2vognn9fnops19otuhhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

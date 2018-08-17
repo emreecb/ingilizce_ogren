@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/london2"
+    android:minHeight="192dp"
+    tools:context="com.example.emirhan.iingilizce_ogren.HomeActivity">
+
+    <Button
+        android:id="@+id/buttonAnonim"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="anonim"
+        android:text="Kayıt olmadan oyna"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/buttonKaydol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonKaydol"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="kayit"
+        android:text="Şimdi Kaydol"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/buttonOturum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonOturum"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="67dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="giris"
+        android:text="Oturum Aç"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonDevam"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="67dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="devam"
+        android:text="Oyuna devam et"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Guess It:"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="174dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="174dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="İngilizce Öğren"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonKaydol"
+        app:layout_constraintStart_toStartOf="@+id/buttonAnonim"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

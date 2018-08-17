@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emirhan.iingilizce_ogren">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/turkeng"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/turkeng"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            android:screenOrientation="portrait"
+        </activity>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ModeSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SplashActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".HomeActivity"
+            android:screenOrientation="portrait" ></activity>
+    </application>
+
+</manifest>
